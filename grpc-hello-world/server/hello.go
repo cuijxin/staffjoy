@@ -1,8 +1,8 @@
 package server
 
 import (
-	pb "github.com/cuijxin/staffjoy/grpc-hello-world/proto"
 	"golang.org/x/net/context"
+	pb "v2.staffjoy.com/grpc-hello-world/proto"
 )
 
 type helloService struct{}

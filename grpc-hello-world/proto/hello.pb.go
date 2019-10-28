@@ -8,9 +8,9 @@ import (
 	fmt "fmt"
 	math "math"
 
-	_ "github.com/cuijxin/staffjoy/grpc-hello-world/proto/google/api"
 	proto "github.com/golang/protobuf/proto"
 	grpc "google.golang.org/grpc"
+	_ "v2.staffjoy.com/grpc-hello-world/proto/google/api"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

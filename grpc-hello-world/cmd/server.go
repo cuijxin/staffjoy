@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cuijxin/staffjoy/grpc-hello-world/server"
+	"v2.staffjoy.com/grpc-hello-world/server"
 )
 
 var serverCmd = &cobra.Command{
@@ -26,6 +26,6 @@ func init() {
 	serverCmd.Flags().StringVarP(&server.ServerPort, "port", "p", "50052", "server port")
 	serverCmd.Flags().StringVarP(&server.CertPemPath, "cert-pem", "", "./certs/server.pem", "cert pem path")
 	serverCmd.Flags().StringVarP(&server.CertKeyPath, "cert-key", "", "./certs/server.key", "cert key path")
-	serverCmd.Flags().StringVarP(&server.CertName, "cert-name", "", "grpc server name", "server's hostname")
+	serverCmd.Flags().StringVarP(&server.CertName, "cert-name", "", "grpc-server", "server's hostname")
 	rootCmd.AddCommand(serverCmd)
 }

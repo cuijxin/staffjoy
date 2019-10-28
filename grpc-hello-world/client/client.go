@@ -7,11 +7,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	pb "github.com/cuijxin/staffjoy/grpc-hello-world/proto"
+	pb "v2.staffjoy.com/grpc-hello-world/proto"
 )
 
 func main() {
-	creds, err := credentials.NewClientTLSFromFile("../certs/server.pem", "dev")
+	creds, err := credentials.NewClientTLSFromFile("../certs/server.pem", "grpc-server")
 	if err != nil {
 		log.Println("Failed to create TLS credentials %v", err)
 	}

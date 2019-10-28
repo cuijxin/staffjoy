@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/cuijxin/staffjoy/grpc-hello-world/pkg/util"
-	pb "github.com/cuijxin/staffjoy/grpc-hello-world/proto"
+	"v2.staffjoy.com/grpc-hello-world/pkg/util"
+	pb "v2.staffjoy.com/grpc-hello-world/proto"
 )
 
 var (
