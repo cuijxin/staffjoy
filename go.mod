@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/certifi/gocertifi v0.0.0-20191021191039-0944d244cd40 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/fatih/structs v1.1.0 // indirect
+	github.com/fatih/structs v1.1.0
 	github.com/getsentry/raven-go v0.2.0
 	github.com/gogo/protobuf v1.3.1
 	github.com/golang/protobuf v1.3.2
