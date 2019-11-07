@@ -16,6 +16,8 @@ func TestProxyHeaders(t *testing.T) {
 		"1":   "2 3 4",
 	}
 
+	t.Log("https://www.staffjoy.com/foo/bar/test.jpg?local=true")
+
 	req, err := http.NewRequest("GET", "https://www.staffjoy.com/foo/bar/test.jpg?local=true", nil)
 	assert.NoError(err)
 
@@ -32,4 +34,6 @@ func TestProxyHeaders(t *testing.T) {
 	}
 	// Check that the header lengths are same
 	assert.Equal(len(testHeaders), len(rec.Header()))
+
+	t.Log("Test complete")
 }
