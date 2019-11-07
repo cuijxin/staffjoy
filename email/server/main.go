@@ -15,7 +15,7 @@ const (
 	// ServiceName identifies this app in logs
 	ServiceName         = "emailapi"
 	fromName            = "Staffjoy"
-	from                = "cuijxin@126.com"
+	from                = "staffjoy@126.com"
 	staffjoyEmailSuffix = "@126.com"
 	mandrillTemplate    = "staffjoy-base"
 )

@@ -10,19 +10,19 @@ type sendingConfig struct {
 var sendingConfigs = map[string]sendingConfig{
 	"development": {
 		WhitelistOnly: true,
-		Numbers:       map[int32]string{1: "13840490189"},
+		Numbers:       map[int32]string{1: "13800990099"},
 		Concurrency:   1,
 	},
 	"staging": {
 		WhitelistOnly: true,
-		Numbers:       map[int32]string{1: "13840490189"},
+		Numbers:       map[int32]string{1: "13800990099"},
 		Concurrency:   1,
 	},
 	"production": {
 		WhitelistOnly: false,
 		Numbers: map[int32]string{
-			1:  "13840490189",
-			44: "13840490189",
+			1:  "13800990099",
+			44: "13800990099",
 		},
 		Concurrency: 1,
 	},
